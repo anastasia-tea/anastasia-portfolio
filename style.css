@@ -8,24 +8,24 @@
 }
 
 .header {
-    background-color: #1F2937;
     padding-bottom: 48px;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
 }
 
 .nav {
+    padding: 8px 288px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 288px;
     flex-wrap: wrap;
 }
 
 #logo {
+    margin-right: auto;
     font-size: 24px;
     color: #F9FaF8;
-    margin-right: auto;
 }
 
 .links {
@@ -33,9 +33,9 @@
 }
 
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    list-style-type: none;
     display: flex;
     gap: 16px;
 }
@@ -52,24 +52,24 @@ a, #herotext {
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
 .hero {
+    padding: 16px 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px 300px;
     gap: 24px;
 }
 
 title {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 h1 {
+    margin: 0;
+    padding: 0;
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9F1F8;
-    margin: 0;
-    padding: 0;
 }
 
 #herotext {
@@ -78,16 +78,16 @@ h1 {
 }
 
 #picture {
+    margin-left: 16px;
+    text-align: center;
     color: #F9F1F8;
     background-color: #555557;
     width: 500px;
     height: 200px;
-    text-align: center;
+    min-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 16px;
-    min-width: 300px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -109,15 +109,15 @@ h2 {
 h3 {
     font-size: 30px;
     font-weight: extra-bold;
-    color: #1F2937;
     text-align: center;
+    color: #1F2937;
 }
 
 .projects {
+    margin-bottom: 48px;
+    padding: 8px;
     display: flex;
     justify-content: space-around;
-    padding: 8px;
-    margin-bottom: 48px;
     gap: 48px;
     flex-wrap: wrap;
 }
@@ -155,20 +155,20 @@ h3 {
 }
 
 #pixel {
-    
+
 }
 
 .item {
-    width:165px;
     text-align: center;
+    width:165px;
 }
 
 .blank {
-    width: 165px;
-    height: 165px;
+    margin: 0;
     border: 2px solid #3882F6;
     border-radius: 8px;
-    margin: 0;
+    width: 165px;
+    height: 165px;
 }
 
 .name {
@@ -176,9 +176,9 @@ h3 {
 }
 
 .caption {
-    width: 145px;
     margin: 0;
     padding: 8px;
+    width: 145px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -191,19 +191,28 @@ h3 {
 }
 
 .contact {
+    margin: 0;
+    padding: 12px 30px;
+    font-size: 18px;
     background-color: #3882F6;
     color: #F9F1F8;
-    margin: 0;
+    width: 20%;
     display: flex;
-    width: 45%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 60px;
-    padding: 12px 120px;
 }
 
-.user {
+h4 {
+    font-size: 20px;
+}
 
+#contacttitle {
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
 }
 
 .label {
@@ -213,8 +222,8 @@ h3 {
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
 .footer {
-    color: #F9F1F8;
     padding: 12px 0;
+    color: #F9F1F8;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
