@@ -87,7 +87,7 @@ button {
     min-width: 30px;
 }
 
-.hold {
+.picture {
     color: #F9F1F8;
     background-color: #555557;
     width: 500px;
@@ -109,9 +109,12 @@ button {
 .info {
     padding: 0 312px;
 }
+h2 {
+    font-size: 36px;
+}
 
 h3 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: extra-bold;
     color: #1F2937;
     text-align: center;
