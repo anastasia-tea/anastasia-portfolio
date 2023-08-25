@@ -8,7 +8,7 @@
 
 .header {
     padding-bottom: 48px;
-    background-color: #1F2937;
+    background-color: #350a46;
     display: flex;
     flex-direction: column;
 }
@@ -36,7 +36,7 @@ ul {
     padding: 0;
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 40px;
 }
 
 a {
@@ -44,7 +44,7 @@ a {
 }
 
 a, #herotext {
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E7EB;
 }
 
@@ -87,9 +87,10 @@ h1 {
 }
 
 #picture img {
+    text-align: center;
     border: 2px solid black;
     border-radius: 30px;
-    width: 200px;
+    width: 300px;
     height: auto;
     object-fit: contain;
 }
@@ -97,9 +98,17 @@ h1 {
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
 .content {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.content img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .info {
@@ -107,35 +116,38 @@ h1 {
 }
 
 h2 {
+    margin: 20px;
+    padding: 20px;
     font-size: 36px;
 }
 
 h3 {
-    font-size: 30px;
+    margin: 6px;
+    padding: 20px;
+    font-size: 24px;
     font-weight: extra-bold;
     text-align: center;
     color: #1F2937;
 }
 
 .projects {
-    margin-bottom: 48px;
     padding: 8px;
     display: flex;
-    justify-content: space-around;
     gap: 48px;
     flex-wrap: wrap;
 }
 
-#websites img {
-    max-width: 200px;
+.name {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
-#webpages img {
-    max-width: 200px;
-}
-
+#websites img,
+#webpages img,
 #wordpress img {
-    max-width: 200px;
+    padding: 0;
+    max-width: 150px;
 }
 
 #museum {
@@ -145,6 +157,10 @@ h3 {
     flex-wrap: wrap;
 }
 
+#museum img {
+    max-width: 200px;
+}
+
 #prototype {
     display: flex;
     flex-direction: row;
@@ -152,64 +168,48 @@ h3 {
     flex-wrap: wrap;
 }
 
-#wireframe {
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-    flex-wrap: wrap;
-}
-
-#driver {
+#driver,
+#art {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-#mobile {
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-    flex-wrap: wrap;
+#driver img {
+    max-width: 200px;
 }
 
-#web {
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-    flex-wrap: wrap;
-}
-
-#stories {
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-    flex-wrap: wrap;
-}
-
+#mobile,
 #models {
-
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    flex-wrap: wrap;
 }
 
+#web,
 #pixel {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    flex-wrap: wrap;
+}
 
+#models img {
+    max-width: 500px;
+}
+
+#pixel img {
+    max-width: 250px;
 }
 
 .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     text-align: center;
-}
-
-.content img {
-    margin: 0;
-    border: 2px solid #3882F6;
-    border-radius: 8px;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.name {
-
 }
 
 .caption {
@@ -241,6 +241,7 @@ h3 {
 }
 
 h4 {
+    margin: 6px;
     font-size: 20px;
 }
 
@@ -250,10 +251,6 @@ h4 {
 
 .label {
     font-weight: bold;
-}
-
-.label {
-
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
