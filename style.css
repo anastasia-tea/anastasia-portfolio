@@ -137,6 +137,12 @@ h3 {
     flex-wrap: wrap;
 }
 
+#sites {
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .name {
     font-weight: bold;
     margin-bottom: 20px;
@@ -146,7 +152,20 @@ h3 {
 #websites,
 #webpages,
 #wordpress {
-    gap: 150px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#websites,
+#wordpress {
+    gap: 30px;
+}
+
+#webpages {
+    gap: 60px;
 }
 
 #websites a,
@@ -170,14 +189,15 @@ h3 {
 }
 
 #museum img {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 #prototype {
     display: flex;
     flex-direction: row;
-    gap: 48px;
+    justify-content: space-around;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 #driver,
@@ -186,10 +206,6 @@ h3 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
-
-#driver img {
-    max-width: 200px;
 }
 
 #mobile,
@@ -208,8 +224,20 @@ h3 {
     flex-wrap: wrap;
 }
 
+#mobile img {
+    border: 2px solid black;
+    border-radius: 15px;
+    max-width: 250px;
+}
+
+#web img {
+    border: 2px solid black;
+    max-width: 600px;
+}
+
 #models img {
-    max-width: 500px;
+    border: 2px solid black;
+    max-width: 600px;
 }
 
 #pixel img {
@@ -243,7 +271,7 @@ h3 {
     margin: 0;
     padding: 0 20px;
     font-size: 18px;
-    background-color: #3882F6;
+    background-color: #427fe0;
     color: #F9F1F8;
     width: 20%;
     display: flex;
@@ -270,7 +298,7 @@ h4 {
 .footer {
     padding: 12px 0;
     color: #F9F1F8;
-    background-color: #1F2937;
+    background-color: #350a46;
     display: flex;
     justify-content: center;
 }
