@@ -212,6 +212,7 @@ h3 {
 #models {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     gap: 48px;
     flex-wrap: wrap;
 }
@@ -220,6 +221,7 @@ h3 {
 #pixel {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     gap: 48px;
     flex-wrap: wrap;
 }
@@ -232,12 +234,12 @@ h3 {
 
 #web img {
     border: 2px solid black;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 #models img {
     border: 2px solid black;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 #pixel img {
