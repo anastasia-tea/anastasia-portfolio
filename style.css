@@ -139,6 +139,7 @@ h3 {
 
 #sites {
     margin: 0;
+    background-color: #faeeff;
     flex-direction: column;
     gap: 20px;
 }
@@ -182,6 +183,7 @@ h3 {
 }
 
 #museum {
+    background-color: #faeeff;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -202,6 +204,7 @@ h3 {
 
 #driver,
 #art {
+    background-color: #faeeff;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -233,7 +236,6 @@ h3 {
 }
 
 #web img {
-    border: 2px solid black;
     max-width: 500px;
 }
 
