@@ -143,6 +143,18 @@ h3 {
     padding-bottom: 20px;
 }
 
+#websites,
+#webpages,
+#wordpress {
+    gap: 150px;
+}
+
+#websites a,
+#webpages a,
+#wordpress a {
+    color: black;
+}
+
 #websites img,
 #webpages img,
 #wordpress img {
